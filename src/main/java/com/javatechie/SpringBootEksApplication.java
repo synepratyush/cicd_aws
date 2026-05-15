@@ -12,7 +12,7 @@ public class SpringBootEksApplication {
 
     @GetMapping("/greetings")
     public String message() {
-        return "Welcome to Pratyush ! app deployed in AWS ECS using aws code pipeline and code build";
+        return "Welcome to Pratyush on aws ! app deployed in AWS ECS using aws code pipeline and code build";
     }
 
     public static void main(String[] args) {
